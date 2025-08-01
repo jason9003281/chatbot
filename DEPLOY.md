@@ -39,7 +39,7 @@ python3 -m venv /data/env/venv
 - `docker-compose.yml`에 정의된 모든 서비스의 Docker 이미지를 빌드합니다.
 - `postgres` 데이터베이스 컨테이너를 생성하고 시작합니다.
 - `db-init` 서비스를 실행하여 **데이터베이스 테이블을 생성**하고 **기본 관리자/사용자 계정을 추가**합니다.
-- `backend`와 `frontend` 서비스를 시작합니다.
+- `backend`와 `frontend` `redis` 서비스를 시작합니다.
 
 > **주의:** 이 전체 과정은 시스템을 처음 구축할 때 한 번만 실행하면 됩니다.
 
