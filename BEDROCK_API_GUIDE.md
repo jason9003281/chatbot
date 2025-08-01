@@ -49,7 +49,7 @@ curl -X POST "http://localhost:8000/api/auth/login" \
 
 ```bash
 # YOUR_TOKEN을 1단계에서 발급받은 access_token으로 교체하세요.
-export YOUR_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+export YOUR_TOKEN=""
 
 curl -X POST "http://localhost:8000/v1/chat/completions" \
 -H "Authorization: Bearer $YOUR_TOKEN" \
